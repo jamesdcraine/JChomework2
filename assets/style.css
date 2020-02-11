@@ -1,27 +1,27 @@
-a {
-    color: #777;
-  }
 
-    html{
+html{
       position: relative;
-  }
-   
-   
-h1, h2, h3, h4, h5, h6{
-      font-family: Georgia, 'Times New Roman', Times, sans-serif;
-      color: #4aaaa5;
-  }
-   
+  }   
+
+body {
+    background: url("/assets/images/trees.png");
+}
+    
   a{
       text-decoration: none;
-  }
+      font-family: 'Special Elite', cursive;
+     }
    
   h1{
-      font-size: 2em;
+      font-size: 3em;
+      font-family: 'Special Elite', cursive;
+      
   }
    
   h2{
-      font-size: 1em;
+      font-size: 2em;
+      font-family: 'Special Elite', cursive;
+    
   }
    
   /***layout***/
@@ -49,9 +49,19 @@ h1, h2, h3, h4, h5, h6{
       width: auto;
   }
      .content{
-      width: 960px;
-      clear: both; 
-      margin: 0 auto 6em auto;
+      width: 920px;
+      clear: both;            
+  }
+
+.biop {
+  box-shadow: 1px 4px 0 0 rgba(12, 2, 2, 0.308);
+  box-shadow: 0px 0px 5px 4px  rgba(12, 2, 2, 0.308);
+    }
+
+  .bio {
+      margin-right: 70px;
+      margin-top: 20px;
+      margin-left: 20px;
   }
    
   .main{
@@ -74,8 +84,37 @@ h1, h2, h3, h4, h5, h6{
   .main p {
       font-size: 14px;
       line-height: 1.75em;
-      margin-bottom: 2em;
+      margin-bottom: 2em;}
 
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 4px;
+        max-height: 40px;
+        text-align: center;
+        font-size: 13px;   
+        background-color: #666666;
+        border-top: 10px solid #4aaaa5;
+        font-family: 'Lobster', cursive;
+        color: white;
+    }
+    .col-md-5 {
+        padding: 20px 0 30px 5px;
+    }
+
+    .tittle {
+      color: white;
+      border-radius: 15px;
+      padding-top: 10px;
+      margin: 10px 0 10px 5px;
+      padding-left: 10px;
+      background-color: #4aaaa5;   
+      width: 350px;
+      height: 80px;
+ 
+    }
    
 
   /***contact***/
@@ -109,6 +148,74 @@ h1, h2, h3, h4, h5, h6{
       margin: 0 auto;
   }
 
+  .nav-item:hover{
+    color: #ffffff;
+    background: #4aaaa5;   
+    height: 35px;
+    transition: .3s;   
+    border-radius: 35px;
+}
+
+  .card:hover {
   
- 
-  
+    background-color: black;
+    border: 1px solid black;
+    transition: .3s;
+    }
+
+    .info {  
+        background-color: #4aaaa5;
+        display: inline-block;
+        border-radius: 5px;
+        width: 450px;
+        height: auto;        
+        margin: 3px 3px 90px 3px;
+        padding-top: 20px;
+        border: 2px solid grey;
+        color: white;    
+        font-size: 20px;
+        line-height: 22px;  
+        padding-right: auto;
+        padding-left: auto;
+        margin-top: 20px;
+        margin-left: 400px;
+        text-align: center; 
+        opacity: 0.8; 
+        padding-bottom: 30px;
+        right: -200px;
+    }
+
+    .info-photog {  
+        position: relative;
+        background-color: #4aaaa5;
+        display: inline-block;
+        border-radius: 5px;
+        width: 450px;
+        height: auto;        
+        margin: 3px 3px 90px 3px;
+        padding-top: 20px;
+        border: 2px solid grey;
+        color: white;    
+        font-size: 20px;
+        line-height: 22px;  
+        padding-right: auto;
+        padding-left: auto;
+        margin-top: 20px;   
+        left: -400px;
+        text-align: center; 
+        opacity: 0.8; 
+        padding-bottom: 30px;
+        right: -200px;
+    }
+
+.contact-item{
+    color:rgb(233, 233, 233);
+}
+
+
+
+    .contact-item:hover {
+        color: white;  
+        font-size: 23px;
+        transition: .3s;
+        }
