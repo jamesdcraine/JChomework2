@@ -233,7 +233,13 @@ body {
 
 .forma {
     margin-top: 50px;
-    margin-left: 370px;
-   
+    margin-left: 370px;  
+}
 
+.photobank {
+    width:350px; 
+    height: auto; 
+    margin-top: 20px; 
+    margin-left: 50px; 
+    float:left;
 }
