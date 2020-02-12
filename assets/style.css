@@ -56,6 +56,7 @@ body {
 .biop {
   box-shadow: 1px 4px 0 0 rgba(12, 2, 2, 0.308);
   box-shadow: 0px 0px 5px 4px  rgba(12, 2, 2, 0.308);
+  z-index: 999;
 
     }
 
@@ -65,6 +66,7 @@ body {
       margin-left: 20px;
       background-color: whitesmoke;
       padding: 10px;
+      z-index: 998;
   
   }
    
@@ -242,6 +244,7 @@ body {
 }
 
 #bioParagraph {
-    opacity: .8;
+  
     border-radius: 15px;
+    z-index: 1;
 }
