@@ -248,3 +248,18 @@ body {
     border-radius: 15px;
     z-index: 1;
 }
+
+.git-link{
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
+    font-weight: lighter;
+    top: -70px;
+    height: 14%;
+    text-align: center;
+    letter-spacing: .04em;
+    background-color: black;
+    border-radius: 10px; 
+    padding: 1px; 
+    color: white;
+}
